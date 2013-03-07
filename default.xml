@@ -161,4 +161,7 @@
   <project path="kernel/lge/mako" name="CyanogenMod/lge-kernel-mako" />
   <project path="device/asus/grouper" name="CyanogenMod/android_device_asus_grouper" />
   <project path="kernel/asus/grouper" name="CyanogenMod/android_kernel_asus_grouper" />
+  <project path="device/samsung/galaxysl" name="rodero95/android_device_samsung_galaxysl" remote="github" revision="phablet-10.1" />
+  <project path="kernel/samsung/latona" name="rodero95/android_kernel_samsung_latona" remote="github" revision="phablet-10.1" />
+  <project path="vendor/samsung/galaxysl" name="rodero95/android_vendor_samsung_galaxysl" remote="github" revision="phablet-10.1" />
 </manifest>
