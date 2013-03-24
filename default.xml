@@ -12,111 +12,110 @@
            sync-c="true"
            sync-j="1" />
 
-  <project path="build" name="CyanogenMod/android_build">
+  <project path="build" name="rodero95/android_build" remote="github" revision="phablet-10.1">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="CyanogenMod/android" />
+  <project path="android" name="rodero95/android" remote="github" revision="phablet-10.1" />
 
-  <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
-  <project path="bionic" name="CyanogenMod/android_bionic" />
-  <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
-  <project path="development" name="CyanogenMod/android_development" />
-  <project path="device/common" name="CyanogenMod/android_device_common" />
-  <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" />
-  <project path="device/generic/armv7-a" name="CyanogenMod/android_device_generic_armv7-a" />
-  <project path="device/generic/common" name="CyanogenMod/android_device_generic_common" />
-  <project path="device/generic/goldfish" name="CyanogenMod/android_device_generic_goldfish" />
-  <project path="device/generic/mips" name="CyanogenMod/android_device_generic_mips" />
-  <project path="device/generic/x86" name="CyanogenMod/android_device_generic_x86" />
-  <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
-  <project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" groups="device" />
+  <project path="abi/cpp" name="rodero95/android_abi_cpp" remote="github" revision="phablet-10.1" />
+  <project path="bionic" name="rodero95/android_bionic" remote="github" revision="phablet-10.1" />
+  <project path="bootable/diskinstaller" name="rodero95/android_bootable_diskinstaller" remote="github" revision="phablet-10.1" />
+  <project path="bootable/recovery" name="rodero95/android_bootable_recovery" remote="github" revision="phablet-10.1" />
+  <project path="development" name="rodero95/android_development" remote="github" revision="phablet-10.1" />
+  <project path="device/common" name="rodero95/android_device_common" remote="github" revision="phablet-10.1" />
+  <project path="device/generic/armv7-a-neon" name="rodero95/android_device_generic_armv7-a-neon" remote="github" revision="phablet-10.1" />
+  <project path="device/generic/armv7-a" name="rodero95/android_device_generic_armv7-a" remote="github" revision="phablet-10.1" />
+  <project path="device/generic/common" name="rodero95/android_device_generic_common" remote="github" revision="phablet-10.1" />
+  <project path="device/generic/goldfish" name="rodero95/android_device_generic_goldfish" remote="github" revision="phablet-10.1" />
+  <project path="device/generic/mips" name="rodero95/android_device_generic_mips" remote="github" revision="phablet-10.1" />
+  <project path="device/generic/x86" name="rodero95/android_device_generic_x86" remote="github" revision="phablet-10.1" />
+  <project path="device/sample" name="rodero95/android_device_sample" groups="device" remote="github" revision="phablet-10.1" />
 
-  <project path="external/aac" name="CyanogenMod/android_external_aac" />
-  <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
-  <project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" />
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
-  <project path="external/bzip2" name="CyanogenMod/android_external_bzip2" />
-  <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" />
-  <project path="external/expat" name="CyanogenMod/android_external_expat" />
-  <project path="external/flac" name="CyanogenMod/android_external_flac" />
-  <project path="external/freetype" name="CyanogenMod/android_external_freetype" />
-  <project path="external/gcc-demangle" name="CyanogenMod/android_external_gcc-demangle" />
-  <project path="external/genext2fs" name="CyanogenMod/android_external_genext2fs" />
-  <project path="external/giflib" name="CyanogenMod/android_external_giflib" />
-  <project path="external/gtest" name="CyanogenMod/android_external_gtest" />
-  <project path="external/harfbuzz" name="CyanogenMod/android_external_harfbuzz" />
-  <project path="external/htop" name="CyanogenMod/android_external_htop" />
-  <project path="external/icu4c" name="CyanogenMod/android_external_icu4c" />
-  <project path="external/jhead" name="CyanogenMod/android_external_jhead" />
-  <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" />
-  <project path="external/kernel-headers" name="CyanogenMod/android_external_kernel-headers" />
-  <project path="external/liblzf" name="CyanogenMod/android_external_liblzf" />
-  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" />
-  <project path="external/libnl-headers" name="CyanogenMod/android_external_libnl-headers" />
-  <project path="external/libogg" name="CyanogenMod/android_external_libogg" />
-  <project path="external/libpng" name="CyanogenMod/android_external_libpng" />
-  <project path="external/libvpx" name="CyanogenMod/android_external_libvpx" />
-  <project path="external/linux-tools-perf" name="CyanogenMod/android_external_linux-tools-perf" />
-  <project path="external/mksh" name="CyanogenMod/android_external_mksh" />
-  <project path="external/openssl" name="CyanogenMod/android_external_openssl" />
-  <project path="external/protobuf" name="CyanogenMod/android_external_protobuf" />
-  <project path="external/qemu" name="CyanogenMod/android_external_qemu" />
-  <project path="external/qemu-pc-bios" name="CyanogenMod/android_external_qemu-pc-bios" />
-  <project path="external/safe-iop" name="CyanogenMod/android_external_safe-iop" />
-  <project path="external/skia" name="CyanogenMod/android_external_skia" />
-  <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" />
-  <project path="external/speex" name="CyanogenMod/android_external_speex" />
-  <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" />
-  <project path="external/stlport" name="CyanogenMod/android_external_stlport" />
-  <project path="external/strace" name="CyanogenMod/android_external_strace" />
-  <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" />
-  <project path="external/tremolo" name="CyanogenMod/android_external_tremolo" />
-  <project path="external/webp" name="CyanogenMod/android_external_webp" />
-  <project path="external/webrtc" name="CyanogenMod/android_external_webrtc" />
-  <project path="external/wpa_supplicant_6" name="CyanogenMod/android_external_wpa_supplicant_6" />
-  <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" />
-  <project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti" />
-  <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" />
-  <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
+  <project path="external/aac" name="rodero95/android_external_aac" remote="github" revision="phablet-10.1" />
+  <project path="external/bouncycastle" name="rodero95/android_external_bouncycastle" remote="github" revision="phablet-10.1" />
+  <project path="external/bsdiff" name="rodero95/android_external_bsdiff" remote="github" revision="phablet-10.1" />
+  <project path="external/busybox" name="rodero95/android_external_busybox" remote="github" revision="phablet-10.1" />
+  <project path="external/bzip2" name="rodero95/android_external_bzip2" remote="github" revision="phablet-10.1" />
+  <project path="external/e2fsprogs" name="rodero95/android_external_e2fsprogs" remote="github" revision="phablet-10.1" />
+  <project path="external/expat" name="rodero95/android_external_expat" remote="github" revision="phablet-10.1" />
+  <project path="external/flac" name="rodero95/android_external_flac" remote="github" revision="phablet-10.1" />
+  <project path="external/freetype" name="rodero95/android_external_freetype" remote="github" revision="phablet-10.1" />
+  <project path="external/gcc-demangle" name="rodero95/android_external_gcc-demangle" remote="github" revision="phablet-10.1" />
+  <project path="external/genext2fs" name="rodero95/android_external_genext2fs" remote="github" revision="phablet-10.1" />
+  <project path="external/giflib" name="rodero95/android_external_giflib" remote="github" revision="phablet-10.1" />
+  <project path="external/gtest" name="rodero95/android_external_gtest" remote="github" revision="phablet-10.1" />
+  <project path="external/harfbuzz" name="rodero95/android_external_harfbuzz" remote="github" revision="phablet-10.1" />
+  <project path="external/htop" name="rodero95/android_external_htop" remote="github" revision="phablet-10.1" />
+  <project path="external/icu4c" name="rodero95/android_external_icu4c" remote="github" revision="phablet-10.1" />
+  <project path="external/jhead" name="rodero95/android_external_jhead" remote="github" revision="phablet-10.1" />
+  <project path="external/jpeg" name="rodero95/android_external_jpeg" remote="github" revision="phablet-10.1" />
+  <project path="external/kernel-headers" name="rodero95/android_external_kernel-headers" remote="github" revision="phablet-10.1" />
+  <project path="external/liblzf" name="rodero95/android_external_liblzf" remote="github" revision="phablet-10.1" />
+  <project path="external/libncurses" name="rodero95/android_external_libncurses" remote="github" revision="phablet-10.1" />
+  <project path="external/libnl-headers" name="rodero95/android_external_libnl-headers" remote="github" revision="phablet-10.1" />
+  <project path="external/libogg" name="rodero95/android_external_libogg" remote="github" revision="phablet-10.1" />
+  <project path="external/libpng" name="rodero95/android_external_libpng" remote="github" revision="phablet-10.1" />
+  <project path="external/libvpx" name="rodero95/android_external_libvpx" remote="github" revision="phablet-10.1" />
+  <project path="external/linux-tools-perf" name="rodero95/android_external_linux-tools-perf" remote="github" revision="phablet-10.1" />
+  <project path="external/mksh" name="rodero95/android_external_mksh" remote="github" revision="phablet-10.1" />
+  <project path="external/openssl" name="rodero95/android_external_openssl" remote="github" revision="phablet-10.1" />
+  <project path="external/protobuf" name="rodero95/android_external_protobuf" remote="github" revision="phablet-10.1" />
+  <project path="external/qemu" name="rodero95/android_external_qemu" remote="github" revision="phablet-10.1" />
+  <project path="external/qemu-pc-bios" name="rodero95/android_external_qemu-pc-bios" remote="github" revision="phablet-10.1" />
+  <project path="external/safe-iop" name="rodero95/android_external_safe-iop" remote="github" revision="phablet-10.1" />
+  <project path="external/skia" name="rodero95/android_external_skia" remote="github" revision="phablet-10.1" />
+  <project path="external/sonivox" name="rodero95/android_external_sonivox" remote="github" revision="phablet-10.1" />
+  <project path="external/speex" name="rodero95/android_external_speex" remote="github" revision="phablet-10.1" />
+  <project path="external/sqlite" name="rodero95/android_external_sqlite" remote="github" revision="phablet-10.1" />
+  <project path="external/stlport" name="rodero95/android_external_stlport" remote="github" revision="phablet-10.1" />
+  <project path="external/strace" name="rodero95/android_external_strace" remote="github" revision="phablet-10.1" />
+  <project path="external/tinyalsa" name="rodero95/android_external_tinyalsa" remote="github" revision="phablet-10.1" />
+  <project path="external/tremolo" name="rodero95/android_external_tremolo" remote="github" revision="phablet-10.1" />
+  <project path="external/webp" name="rodero95/android_external_webp" remote="github" revision="phablet-10.1" />
+  <project path="external/webrtc" name="rodero95/android_external_webrtc" remote="github" revision="phablet-10.1" />
+  <project path="external/wpa_supplicant_6" name="rodero95/android_external_wpa_supplicant_6" remote="github" revision="phablet-10.1" />
+  <project path="external/wpa_supplicant_8" name="rodero95/android_external_wpa_supplicant_8" remote="github" revision="phablet-10.1" />
+  <project path="external/wpa_supplicant_8_ti" name="rodero95/android_external_wpa_supplicant_8_ti" remote="github" revision="phablet-10.1" />
+  <project path="external/yaffs2" name="rodero95/android_external_yaffs2" remote="github" revision="phablet-10.1" />
+  <project path="external/zlib" name="rodero95/android_external_zlib" remote="github" revision="phablet-10.1" />
 
-  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" />
-  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
-  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" />
-  <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" />
+  <project path="frameworks/av" name="rodero95/android_frameworks_av" remote="github" revision="phablet-10.1" />
+  <project path="frameworks/base" name="rodero95/android_frameworks_base" remote="github" revision="phablet-10.1" />
+  <project path="frameworks/native" name="rodero95/android_frameworks_native" remote="github" revision="phablet-10.1" />
+  <project path="frameworks/opt/emoji" name="rodero95/android_frameworks_opt_emoji" remote="github" revision="phablet-10.1" />
 
-  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
-  <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
-  <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" />
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />
-  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
-  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" />
-  <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" />
-  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" />
-  <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" />
-  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" />
-  <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" />
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
-  <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" />
-  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
-  <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" />
-  <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" />
-  <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" />
-  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" />
-  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" />
-  <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
-  <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
-  <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
-  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
-  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
+  <project path="hardware/broadcom/wlan" name="rodero95/android_hardware_broadcom_wlan" remote="github" revision="phablet-10.1" />
+  <project path="hardware/cm" name="rodero95/android_hardware_cm" remote="github" revision="phablet-10.1" />
+  <project path="hardware/invensense" name="rodero95/android_hardware_invensense" remote="github" revision="phablet-10.1" />
+  <project path="hardware/libhardware" name="rodero95/android_hardware_libhardware" remote="github" revision="phablet-10.1" />
+  <project path="hardware/libhardware_legacy" name="rodero95/android_hardware_libhardware_legacy" remote="github" revision="phablet-10.1" />
+  <project path="hardware/msm7k" name="rodero95/android_hardware_msm7k" remote="github" revision="phablet-10.1" />
+  <project path="hardware/qcom/audio" name="rodero95/android_hardware_qcom_audio" remote="github" revision="phablet-10.1" />
+  <project path="hardware/qcom/audio-caf" name="rodero95/android_hardware_qcom_audio-caf" remote="github" revision="phablet-10.1" />
+  <project path="hardware/qcom/bt" name="rodero95/android_hardware_qcom_bt" remote="github" revision="phablet-10.1" />
+  <project path="hardware/qcom/camera" name="rodero95/android_hardware_qcom_camera" remote="github" revision="phablet-10.1" />
+  <project path="hardware/qcom/display" name="rodero95/android_hardware_qcom_display" remote="github" revision="phablet-10.1" />
+  <project path="hardware/qcom/display-caf" name="rodero95/android_hardware_qcom_display-caf" remote="github" revision="phablet-10.1" />
+  <project path="hardware/qcom/gps" name="rodero95/android_hardware_qcom_gps" remote="github" revision="phablet-10.1" />
+  <project path="hardware/qcom/keymaster" name="rodero95/android_hardware_qcom_keymaster" remote="github" revision="phablet-10.1" />
+  <project path="hardware/qcom/media" name="rodero95/android_hardware_qcom_media" remote="github" revision="phablet-10.1" />
+  <project path="hardware/qcom/msm8960" name="rodero95/android_hardware_qcom_msm8960" remote="github" revision="phablet-10.1" />
+  <project path="hardware/qcom/power" name="rodero95/android_hardware_qcom_power" remote="github" revision="phablet-10.1" />
+  <project path="hardware/qcom/sensors" name="rodero95/android_hardware_qcom_sensors" remote="github" revision="phablet-10.1" />
+  <project path="hardware/qcom/wlan" name="rodero95/android_hardware_qcom_wlan" remote="github" revision="phablet-10.1" />
+  <project path="hardware/ril" name="rodero95/android_hardware_ril" remote="github" revision="phablet-10.1" />
+  <project path="hardware/samsung_slsi/exynos5" name="rodero95/android_hardware_samsung_slsi_exynos5" remote="github" revision="phablet-10.1" />
+  <project path="hardware/ti/omap3" name="rodero95/android_hardware_ti_omap3" remote="github" revision="phablet-10.1" />
+  <project path="hardware/ti/omap4xxx" name="rodero95/android_hardware_ti_omap4xxx" remote="github" revision="phablet-10.1" />
+  <project path="hardware/ti/wlan" name="rodero95/android_hardware_ti_wlan" remote="github" revision="phablet-10.1" />
+  <project path="hardware/ti/wpan" name="rodero95/android_hardware_ti_wpan" remote="github" revision="phablet-10.1" />
 
-  <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" />
+  <project path="libnativehelper" name="rodero95/android_libnativehelper" remote="github" revision="phablet-10.1" />
 
-  <project path="packages/wallpapers/LivePicker" name="CyanogenMod/android_packages_wallpapers_LivePicker" />
+  <project path="packages/wallpapers/LivePicker" name="rodero95/android_packages_wallpapers_LivePicker" remote="github" revision="phablet-10.1" />
 
-  <project path="prebuilt" name="CyanogenMod/android_prebuilt" />
+  <project path="prebuilt" name="rodero95/android_prebuilt" remote="github" revision="phablet-10.1" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" revision="refs/tags/android-4.2.2_r1" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" revision="refs/tags/android-4.2.2_r1" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="linux" revision="refs/tags/android-4.2.2_r1" />
@@ -139,28 +138,19 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" revision="refs/tags/android-4.2.2_r1" />
   <project path="prebuilts/gcc/linux-x86/arm/linaro-4.7.2" name="platform/prebuilts/linaro-4.7.2" revision="refs/heads/master" />
 
-  <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
-  <project path="system/core" name="CyanogenMod/android_system_core" />
-  <project path="system/extras" name="CyanogenMod/android_system_extras" />
-  <project path="system/media" name="CyanogenMod/android_system_media" />
-  <project path="system/security" name="CyanogenMod/android_system_security" />
-  <project path="system/su" name="CyanogenMod/android_system_su" />
-  <project path="system/vold" name="CyanogenMod/android_system_vold" />
+  <project path="system/bluetooth" name="rodero95/android_system_bluetooth" remote="github" revision="phablet-10.1" />
+  <project path="system/core" name="rodero95/android_system_core" remote="github" revision="phablet-10.1" />
+  <project path="system/extras" name="rodero95/android_system_extras" remote="github" revision="phablet-10.1" />
+  <project path="system/media" name="rodero95/android_system_media" remote="github" revision="phablet-10.1" />
+  <project path="system/security" name="rodero95/android_system_security" remote="github" revision="phablet-10.1" />
+  <project path="system/su" name="rodero95/android_system_su" remote="github" revision="phablet-10.1" />
+  <project path="system/vold" name="rodero95/android_system_vold" remote="github" revision="phablet-10.1" />
   <project path="tools/build" name="platform/tools/build" revision="refs/tags/android-4.2.2_r1" />
-  <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
+  <project path="vendor/cm" name="rodero95/android_vendor_cm" remote="github" revision="phablet-10.1" />
 
   <project path="ubuntu/assets" name="ubuntu/assets" revision="refs/heads/master" />
   <project path="ubuntu/uchroot" name="ubuntu/uchroot" revision="refs/heads/master" />
 
-  <project path="device/samsung/maguro" name="CyanogenMod/android_device_samsung_maguro" />
-  <project path="device/samsung/tuna" name="CyanogenMod/android_device_samsung_tuna" />
-  <project path="kernel/samsung/tuna" name="CyanogenMod/android_kernel_samsung_tuna" />
-  <project path="device/samsung/manta" name="CyanogenMod/android_device_samsung_manta" />
-  <project path="kernel/samsung/manta" name="CyanogenMod/android_kernel_samsung_manta" />
-  <project path="device/lge/mako" name="CyanogenMod/android_device_lge_mako" />
-  <project path="kernel/lge/mako" name="CyanogenMod/lge-kernel-mako" />
-  <project path="device/asus/grouper" name="CyanogenMod/android_device_asus_grouper" />
-  <project path="kernel/asus/grouper" name="CyanogenMod/android_kernel_asus_grouper" />
   <project path="device/samsung/galaxysl" name="rodero95/android_device_samsung_galaxysl" remote="github" revision="phablet-10.1" />
   <project path="kernel/samsung/latona" name="rodero95/android_kernel_samsung_latona" remote="github" revision="phablet-10.1" />
   <project path="vendor/samsung/galaxysl" name="rodero95/android_vendor_samsung_galaxysl" remote="github" revision="phablet-10.1" />
